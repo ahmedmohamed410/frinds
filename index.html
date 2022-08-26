@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>frinds</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#"><img src="images/logo.jpg" class="logo"></a>
+            <ul>
+                <li><a href="#">أحمد محمد</a></li>
+                <li><a href="#">اهاب احمد</a></li>
+                <li><a href="#">محمود احمد</a></li>
+                <li><a href="#">عبدالله رجب</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="texttt">
+                <h2 id="rt">أحمد محمد</h2>
+                <p id="mo"> اسم الشهره ابو معوض الولبي دايما بيفتي في كل حاجه و كمان اصغر هكر ف مصر على كلام ابن احمد حافظ'</p>
+                <a href="#">الشله كلها</a>
+            </div>
+            <div class="image">
+                <img class="img" src="images/ana.jpg">
+            </div>
+        </div>
+        <div class="icons">
+            <img onclick="names(this.src);  colors('#000'); document.getElementById('rt').innerHTML='أحمد محمد'; document.getElementById('mo').innerHTML='اسم الشهره ابو معوض الولبي دايما بيفتي في كل حاجه و كمان اصغر هكر ف مصر على كلام ابن احمد حافظ'" src="images/ana.jpg" class="a">
+            <img onclick="names(this.src);  colors('#c82525'); document.getElementById('rt').innerHTML='اهاب احمد'; document.getElementById('mo').innerHTML='اسم الشهره هوبا الي مطلعين اثار و دا اي حاجه غلط هو دايس و دا كان ايهاب كيرلي'" src="images/EH.jpg" class="b">
+            <img onclick="names(this.src);  colors('#247ec8'); document.getElementById('rt').innerHTML='محمود احمد'; document.getElementById('mo').innerHTML='اسم الشهره كشاف الي مش متشاف و دا طبعا قلبه ابيض و الي في قلبه على لسانه و مش بيكذب على حسب كلم النقاد و المفكرين'" src="images/ma.jpg" class="c">
+            <img onclick="names(this.src);  colors('1e1e1e'); document.getElementById('rt').innerHTML='عبدالله رجب'; document.getElementById('mo').innerHTML='اسم الشهره بودي انا مش عارف ليه مسميينه كده بس ماعلينا و دا اكأب واحد في المجره و مشهور ب مساعد الهكر ابو معوض الولبي'; klm('200px')" src="images/body.jpg" class="d">
+            <img onclick="names(this.src);  colors('#c79b53'); document.getElementById('rt').innerHTML='مستقبل مصر بأذن الله'; document.getElementById('mo').innerHTML='و دول شكل ناس ثانويه عامه و كمان علمي علوم يبقا عمار يا بلد'" src="images/logo.jpg" class="e"></div>
+    </div>
+            <script src="js/main.js"></script>
+</body>
+</html>
